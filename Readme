@@ -4,8 +4,16 @@ LogSenderPayload
   
 getProperty
 
-  - Script used to grab a property by name
+  - Script used to grab a property to use in message mapping
+  - Parameters: property name
   
 generateCredentialFields
 
   - Script used for generating username, password and domain based on credential set
+  - Requires property "Credentials_name" with value set as the desired credential set
+  
+safesubstring
+
+  - Script used to create a substring of *length* characters from *startingPosition*
+  - If *startingPosition* + *length* exceedes the end of the string it will return the
+    characters from *startingPosition* to the end of the string
