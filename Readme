@@ -1,0 +1,11 @@
+LogSenderPayload
+
+  - Basic script used for logging the current body
+  
+getProperty
+
+  - Script used to grab a property by name
+  
+generateCredentialFields
+
+  - Script used for generating username, password and domain based on credential set
